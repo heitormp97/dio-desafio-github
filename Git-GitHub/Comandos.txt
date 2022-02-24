@@ -1,25 +1,25 @@
 Comandos Git
 
-mkdir - cria uma pasta
-mv arquivo ./pastadedestino/ - move o arquivo para a pasta de destino
-ls - lista todos arquivos na pasta
-ls -a - lista arquivos ocultos
-cd pastadesejada - navega para a pasta desejada
-cd .. - volta um nível na pasta
-echo > Nomedoarquivo - cria um arquivo
+mkdir 
+mv arquivo ./pastadedestino/ 
+ls 
+ls -a 
+cd pastadesejada 
+cd .. 
+echo > Nomedoarquivo 
 rm -rf
 
-git init - inicia o repositório na pasta
+git init 
 git remote add origin linkdogithub
-git remote -v - lista de repositórios remotos cadastrados
-git status - mostra como está o repositório, se houve mudanças
-git add nomedoarquivo pastadoarquivo/ - modifica o estado desses arquivos para Staged
-git add * - modifica o estado de todos os arquivos alterados para Staged
-git restore --staged arquivo - para tirar o estado stage de um arquivo
+git remote -v 
+git status 
+git add nomedoarquivo pastadoarquivo/ 
+git add * 
+git restore --staged arquivo 
 git commit -m "cria o commit e a descrição"
-git push origin master - manda os arquivos do repositório local para o remoto
-git pull origin master - recebe os arquivos do repositório remoto para o local
-git clone endereçoremoto - recebe um clone dos arquivos de um diretório remoto desejado
+git push origin master 
+git pull origin master 
+git clone endereçoremoto
 
 ssh-keygen -t ed25519 -C email@git.com
 
